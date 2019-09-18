@@ -8,15 +8,16 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.We
 "#############################"
 "  Installing General Apps"
 "#############################"
-choco install expressvpn -y
-choco install firefox -y
+#choco install expressvpn -y
+#choco install firefox -y
 choco install googlechrome -y
 choco install google-drive-file-stream -y
 choco install slack -y
 choco install 7zip -y
 choco install notepadplusplus -y
-choco install conemu -y
-choco install far -y
+#choco install conemu -y
+choco install microsoft-windows-terminal
+#choco install far -y
 choco install putty -y
 choco install adobereader -y 
 
@@ -79,19 +80,19 @@ choco install kubernetes-helm -y
 choco install skyfonts -y
 
 # Media Player
-choco install mpc-hc -y
+#choco install mpc-hc -y
 
 # WinAmp - Something about a Llama
-choco install winamp -y
+#choco install winamp -y
 
 # F.lux for eye strain and sunrise/set coloring 
-choco install f.lux -y
+#choco install f.lux -y
 
 # Games and Such
-choco install steam -y
-choco install origin -y
-choco install swtor -y
-choco install vortex -y
+#choco install steam -y
+#choco install origin -y
+#choco install swtor -y
+#choco install vortex -y
 
 # Add WSL - Move to End
 "#############################"
