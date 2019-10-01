@@ -35,6 +35,7 @@ choco install dotnetfx -y
 choco install dotnet4.6.2 -y
 choco install dotnetcore-sdk -y
 choco install vscode -y
+choco install azure-data-studio -y
 choco install visualstudio2019professional -y
 choco install resharper -y
 choco install nvm -y
