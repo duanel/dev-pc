@@ -13,7 +13,8 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.We
 choco install 1password -y
 choco install caffeine -y
 choco install googlechrome -y
-choco install google-drive-file-stream -y
+#choco install google-drive-file-stream -y
+choco install dropbox -y
 choco install slack -y
 choco install 7zip -y
 choco install notepadplusplus -y
