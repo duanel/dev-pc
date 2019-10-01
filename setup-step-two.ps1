@@ -8,13 +8,15 @@
 "#############################"
 New-Item -ItemType Directory -Force -Path c:\distro
 Invoke-WebRequest -Uri https://aka.ms/wsl-ubuntu-1804 -OutFile c:\distro\Ubuntu1804.appx -UseBasicParsing
-Invoke-WebRequest -Uri https://github.com/WhitewaterFoundry/Fedora-Remix-for-WSL/releases/download/1.30.1/DistroLauncher-Appx_1.30.1.0_x64.appx -OutFile c:\distro\FedoraRemix.appx -UseBasicParsing
+#Invoke-WebRequest -Uri https://github.com/WhitewaterFoundry/Fedora-Remix-for-WSL/releases/download/1.30.1/DistroLauncher-Appx_1.30.1.0_x64.appx -OutFile c:\distro\FedoraRemix.appx -UseBasicParsing
+Invoke-WebRequest -Uri https://aka.ms/wsl-debian-gnulinux -OutFile c:\distro\wsl-debian.appx -UseBasicParsing
 
 "#############################"
 "  Installing WSL Distros"
 "#############################"
 Add-AppxPackage c:\distro\Ubuntu1804.appx
-Add-AppxPackage c:\distro\FedoraRemix.appx
+#Add-AppxPackage c:\distro\FedoraRemix.appx
+Add-AppxPackage c:\distro\wsl-debian.appx
 
 # NVM
 "#############################"
