@@ -46,22 +46,22 @@ choco install beyondcompare -y
 choco install inkscape -y
 
 # Install Azure Tools
-"#############################"
-"   Installing Azure Tools"
-"#############################"
-choco install azure-cli -y
-choco install azure-functions-core-tools -y
-choco install microsoftazurestorageexplorer -y
-choco install cloudberryexplorer.azurestorage -y
-choco install sql-server-management-studio -y
+#"#############################"
+#"   Installing Azure Tools"
+#"#############################"
+#choco install azure-cli -y
+#choco install azure-functions-core-tools -y
+#choco install microsoftazurestorageexplorer -y
+#choco install cloudberryexplorer.azurestorage -y
+#choco install sql-server-management-studio -y
 
 # Install AWS Tools
-"#############################"
-"   Installing AWS Tools"
-"#############################"
-choco install awscli -y
-choco install awstools.powershell -y
-choco install cloudberryexplorer.amazons3 -y
+#"#############################"
+#"   Installing AWS Tools"
+#"#############################"
+#choco install awscli -y
+#choco install awstools.powershell -y
+#choco install cloudberryexplorer.amazons3 -y
 
 # Install Docker Tools
 "###################################"
