@@ -82,6 +82,10 @@ choco install kubernetes-helm -y
 # SkyFonts
 choco install skyfonts -y
 
+# Nice Terminal Font
+choco install FiraCode -y
+choco install FiraCode-ttf -y
+
 # Media Player
 #choco install mpc-hc -y
 
