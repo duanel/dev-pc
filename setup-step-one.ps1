@@ -19,7 +19,7 @@ choco install slack -y
 choco install 7zip -y
 choco install notepadplusplus -y
 #choco install conemu -y
-choco install microsoft-windows-terminal
+choco install microsoft-windows-terminal -y
 #choco install far -y
 choco install putty -y
 choco install adobereader -y 
