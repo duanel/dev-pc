@@ -23,6 +23,7 @@ choco install microsoft-windows-terminal -y
 #choco install far -y
 choco install putty -y
 choco install adobereader -y 
+choco install teamviewer -y
 
 # Install Dev Languages and Tools
 "##############################"
