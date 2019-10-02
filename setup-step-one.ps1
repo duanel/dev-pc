@@ -81,7 +81,7 @@ choco install kubernetes-helm -y
 "#############################"
 
 # SkyFonts
-choco install skyfonts -y
+#choco install skyfonts -y
 
 # Nice Terminal Font
 choco install FiraCode -y
